@@ -16,8 +16,10 @@ public class classHashset {
             String line;
             while((line= reader.readLine())!=null){
                 names.add(line);
-
                 }
+            for(String temp:names){
+                System.out.println(temp);
+            }
             fileReader.close();
         }catch (IOException exception){
             exception.printStackTrace();
